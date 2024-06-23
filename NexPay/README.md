@@ -1,5 +1,7 @@
 # Sudo Wrapper
 
+**Demo link:** https://youtu.be/910Kb4drvy4
+
 The `sudo_wrapper` script enhances the security and convenience of using `sudo` on macOS by integrating Touch ID and password storage in the Keychain. This tool attempts to use the password from the Keychain, falls back to the passkey authentication with TouchID and if it is not successful to regular `sudo` prompt.
 
 ## Features
