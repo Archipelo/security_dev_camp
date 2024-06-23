@@ -1,41 +1,43 @@
 ---
-title: Cottonmouth: Aggregation of Compliance Information
-author: Yarann
+title: "Cottonmouth SiteScan"
+author: Yarann and Marty
 lang: en-US
-toc: true
 ---
 
-## General Motivation
+# General Motivation
 
-* Personally Identifying Information (PII) is about aggregation
-* PII is everywhere
+* Security of physical environments is hard to automate
 * Dev tools are applicable everywhere
 
-## Specific Example: SOC2 physical site security
+# Specific Example: SOC2 physical site security
 
 * SOC2 requires development and ops sites to be secured
 * Security practices:
     * locking doors
     * computer lock screens
     * in-place objects (classic example: password sticky)
+    * PII (badges, loose paperwork)
 
 Site security is _ad-hoc_. Usually it's a manager walking
 around and chastising personnel.
 
 How do we take advantage of "software is eating the world"?
 
-## Automation of Physical Security
+# Automation of Physical Security
 
 * Many security tools operate on Abstract Syntax Trees
 * Trees are broadly applicable (e.g. SceneGraph)
 * Apply the AST model to site security
 
-## Concrete Example
 
-::: columns
+# Concrete Example: Physical Environment Input
 
-:::: column
+![nested branches](nested-branches.jpg)
 
+# Concrete Example
+
+
+\tiny
 ```yaml
 
 - name: main office
@@ -58,8 +60,3 @@ How do we take advantage of "software is eating the world"?
 
 ```
 
-:::: column
-
-screenshot
-
-::: columns
