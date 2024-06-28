@@ -1,0 +1,17 @@
+- name: main office
+  latlon: [36.0578254,-87.20356]
+  branches:
+    - name: entry
+    - name: cubicles
+      branches:
+        - name: cubicle 1
+          branches:
+            - name: desk
+            - branches:
+              - name: monitor 2
+                branches:
+                  - name: screen
+                    contents: "About Lightweight static analysis for many..."
+                  - name: sticky-note
+                    contents: "password: 123"
+
